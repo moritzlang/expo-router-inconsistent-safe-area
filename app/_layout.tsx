@@ -32,6 +32,7 @@ export default function RootLayout() {
       <Stack>
         <Stack.Screen name="(auth)" options={{ headerShown: false }} />
         <Stack.Screen name="modal" options={{ presentation: 'modal' }} />
+        <Stack.Screen name="modal-safe-area-view" options={{ presentation: 'modal' }} />
         <Stack.Screen name="+not-found" />
       </Stack>
       <StatusBar style="auto" />

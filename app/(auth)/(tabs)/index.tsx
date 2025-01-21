@@ -23,7 +23,11 @@ export default function HomeScreen() {
       <ThemedView style={styles.stepContainer}>
 
         <Link href="/modal">
-        <ThemedText type="subtitle">Open Modal</ThemedText>
+          <ThemedText type="subtitle">Open Modal with Floating Button</ThemedText>
+        </Link>
+
+        <Link href="/modal-safe-area-view">
+          <ThemedText type="subtitle">Open Modal with SafeAreView</ThemedText>
         </Link>
     
       </ThemedView>
@@ -38,7 +42,7 @@ const styles = StyleSheet.create({
     gap: 8,
   },
   stepContainer: {
-    gap: 8,
+    gap: 64,
     marginBottom: 8,
   },
   reactLogo: {
